@@ -188,7 +188,6 @@ function draw() {
 }
 
 function mousePressed() {
-  //saveGif('assignment4', 10);
-
 }
+
 
