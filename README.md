@@ -5,22 +5,10 @@
     <title>과제 5</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
     <style>
-        body > *:not(.container),
-        body > header,
-        body > .page-header,
-        body > #header-wrapper,
-        .wrapper > header,
-        section > header,
-        body::before,
-        body::after,
-        .container::before {
+        #header-wrapper,
+        .page-header,
+        header {
             display: none !important;
-            visibility: hidden !important;
-            height: 0 !important;
-            margin: 0 !important;
-            padding: 0 !important;
-            border: none !important;
-            overflow: hidden !important;
         }
         * {
             margin: 0;
@@ -39,10 +27,8 @@
         }
         
         .container {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            max-width: 1400px;
+            margin: 0 auto;
         }
         
         h1 {
@@ -51,7 +37,6 @@
             margin-bottom: 40px;
             font-size: 2.5em;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-            width: 100%;
         }
         
         .grid {
