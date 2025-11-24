@@ -45,6 +45,8 @@
             gap: 30px;
             margin: 0 auto;
             max-width: fit-content;
+            justify-content: center;
+            justify-items: center;
         }
         
         .sketch-container {
