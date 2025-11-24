@@ -5,11 +5,22 @@
     <title>과제 5</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
     <style>
-        /* GitHub Pages 기본 헤더 제거 */
-        #header-wrapper,
-        .page-header,
-        header {
+        body > *:not(.container),
+        body > header,
+        body > .page-header,
+        body > #header-wrapper,
+        .wrapper > header,
+        section > header,
+        body::before,
+        body::after,
+        .container::before {
             display: none !important;
+            visibility: hidden !important;
+            height: 0 !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            border: none !important;
+            overflow: hidden !important;
         }
         * {
             margin: 0;
@@ -40,6 +51,7 @@
             margin-bottom: 40px;
             font-size: 2.5em;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            width: 100%;
         }
         
         .grid {
