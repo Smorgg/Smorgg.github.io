@@ -81,9 +81,7 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>과제 5</h1>
-        
+    <div class="container">        
         <div class="grid">
             <div class="sketch-container">
                 <div class="sketch-title">Assignment 1: Camping Scene</div>
