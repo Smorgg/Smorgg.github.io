@@ -1,5 +1,6 @@
 function setup() {
   createCanvas(600, 400);
+  canvas.parent('sketch2');
 }
 
 function draw() {
@@ -167,4 +168,5 @@ function drawRighthair(offsetX, offsetY) {
   curveVertex(pts[lastIdx][0] + offsetX, pts[lastIdx][1] + offsetY);
   
   endShape();
+
 }
