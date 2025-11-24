@@ -187,7 +187,5 @@ function draw() {
   triangle(tentLeftX - width * 0.0833, tentBaseY, tentLeftX + width * 0.0167, tentBaseY, tentLeftX - width * 0.05, tentTopY);
 }
 
-function mousePressed() {
-}
 
 
