@@ -6,6 +6,7 @@ const hairMoveSpeed = 10;
 
 function setup() {
   createCanvas(600, 400);
+  canvas.parent('sketch3');
   clothColor = color(0);
   bgColor = color(0, 200, 150);
 }
@@ -177,4 +178,5 @@ function drawCollar(offsetX, offsetY) {
   curveVertex(-40 + offsetX,   0 + offsetY);
   curveVertex(-40 + offsetX,   0 + offsetY);
   endShape();
+
 }
