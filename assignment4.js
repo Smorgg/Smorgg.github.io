@@ -1,5 +1,6 @@
 function setup() {
   createCanvas(360, 240);
+  canvas.parent('sketch4');
 }
 
 function draw() {
@@ -188,4 +189,5 @@ function draw() {
 
 function mousePressed() {
   saveGif('assignment4', 10);
+
 }
