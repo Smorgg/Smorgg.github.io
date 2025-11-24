@@ -5,7 +5,8 @@
     <title>P5.js Portfolio</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
     <style>
-         #header-wrapper,
+        /* GitHub Pages 기본 헤더 제거 */
+        #header-wrapper,
         .page-header,
         header {
             display: none !important;
