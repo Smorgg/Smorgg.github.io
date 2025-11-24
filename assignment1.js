@@ -138,6 +138,6 @@ function draw() {
 }
 
 function mousePressed() {
-  saveCanvas('myImage', 'png'); // 마우스 클릭 시 'myImage.png' 파일로 저장
 }
+
 
