@@ -74,10 +74,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background: #f5f5f5;
+            background: white;
             border-radius: 10px;
             overflow: hidden;
-            min-height: 200px;
+            min-height: 250px;
         }
         
         @media (max-width: 1024px) {
