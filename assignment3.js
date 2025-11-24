@@ -76,8 +76,6 @@ function keyPressed() {
     hairOffsetX = 0;
     hairOffsetY = 0;
     return;
-  } else if (key === 's' || key === 'S') {
-    saveGif('mySketch', 10); 
   }
 
   if (keyCode === LEFT_ARROW) {
@@ -180,3 +178,4 @@ function drawCollar(offsetX, offsetY) {
   endShape();
 
 }
+
