@@ -28,8 +28,10 @@
         }
         
         .container {
-            max-width: 1400px;
-            margin: 0 auto;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         
         h1 {
@@ -90,22 +92,22 @@
         
         <div class="grid">
             <div class="sketch-container">
-                <div class="sketch-title">Assignment 1: Camping Scene</div>
+                <div class="sketch-title">Assignment 1</div>
                 <div class="canvas-wrapper" id="sketch1"></div>
             </div>
             
             <div class="sketch-container">
-                <div class="sketch-title">Assignment 4: Animated Day & Night</div>
+                <div class="sketch-title">Assignment 4</div>
                 <div class="canvas-wrapper" id="sketch4"></div>
             </div>
             
             <div class="sketch-container">
-                <div class="sketch-title">Assignment 2: Portrait</div>
+                <div class="sketch-title">Assignment 2</div>
                 <div class="canvas-wrapper" id="sketch2"></div>
             </div>
             
             <div class="sketch-container">
-                <div class="sketch-title">Assignment 3: Interactive Portrait</div>
+                <div class="sketch-title">Assignment 3</div>
                 <div class="canvas-wrapper" id="sketch3"></div>
             </div>
         </div>
