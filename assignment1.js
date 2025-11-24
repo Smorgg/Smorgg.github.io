@@ -1,5 +1,6 @@
 function setup() {
   createCanvas(600, 400);
+  canvas.parent('sketch1');
 }
 
 function draw() {
@@ -139,3 +140,4 @@ function draw() {
 function mousePressed() {
   saveCanvas('myImage', 'png'); // 마우스 클릭 시 'myImage.png' 파일로 저장
 }
+
