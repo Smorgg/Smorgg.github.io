@@ -77,7 +77,7 @@
             background: white;
             border-radius: 10px;
             overflow: hidden;
-            min-height: 250px;
+            min-height: 400px;
         }
         
         @media (max-width: 1024px) {
