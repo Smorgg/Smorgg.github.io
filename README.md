@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -45,7 +44,8 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 30px;
-            margin-bottom: 40px;
+            margin: 0 auto;
+            max-width: fit-content;
         }
         
         .sketch-container {
