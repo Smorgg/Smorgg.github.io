@@ -56,10 +56,6 @@
             padding: 20px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.3);
             transition: transform 0.3s ease;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
         }
         
         .sketch-container:hover {
@@ -81,6 +77,7 @@
             background: #f5f5f5;
             border-radius: 10px;
             overflow: hidden;
+            min-height: 200px;
         }
         
         @media (max-width: 1024px) {
