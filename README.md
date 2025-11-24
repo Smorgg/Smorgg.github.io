@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -22,6 +23,9 @@
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         
         .container {
@@ -83,6 +87,7 @@
 <body>
     <div class="container">
         <h1>과제 5</h1>
+        
         <div class="grid">
             <div class="sketch-container">
                 <div class="sketch-title">Assignment 1: Camping Scene</div>
