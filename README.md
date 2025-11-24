@@ -1,5 +1,3 @@
-# Smorgg.github.io
-<!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -78,7 +76,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>🎨 P5.js Creative Coding Portfolio</h1>
+        <h1>과제 5</h1>
         
         <div class="grid">
             <div class="sketch-container">
