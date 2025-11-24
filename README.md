@@ -50,6 +50,7 @@
         }
         
         .sketch-container {
+            min-width: 600px;
             background: white;
             border-radius: 15px;
             padding: 20px;
